@@ -3,3 +3,54 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    width: 100%;
+}
+
+.wrapper {
+    padding: 2rem;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.logo {
+    background-image: url('../images/mountain.jpg');
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    text-align: center;
+}
+
+nav {
+    background: grey;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.nav-links {
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 2rem;
+    margin: 0 auto;
+}
+
+.nav-links::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+nav li {
+    float: left;
+    margin: 0.5rem;
+    text-transform: uppercase;
+    font-size: 12px;
+}
