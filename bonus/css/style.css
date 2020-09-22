@@ -35,6 +35,7 @@ nav ul {
 .nav-links {
     background-color: white;
     display: inline-block;
+    vertical-align: middle;
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
