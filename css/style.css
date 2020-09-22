@@ -5,8 +5,13 @@
 }
 
 .wrapper {
-    width: 100%;
+    /* width: 100%; */
     padding: 2rem;
+}
+
+main {
+    /* width: 100%; */
+    margin: 2rem 0;
 }
 
 main::after {
@@ -22,17 +27,27 @@ header {
 }
 
 aside {
-    width: 20rem;
-    height: 30rem;
-    background: pink;
+    width: 20%;
     float: left;
 }
 
 section {
-    width: 35rem;
+    width: 40%;
     height: 30rem;
     background: purple;
     float: left;
+    margin: 0 10%;
+}
+
+.pink {
+    width: 100%;
+    height: 30rem;
+    background: pink;
+    margin-bottom: 2rem;
+}
+
+.right .pink {
+    height: 15rem;
 }
 
 footer {
